@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import json
 import time
+import requests # Đã bổ sung thư viện requests
 
 # --- Cấu hình API và Thông số ---
 MODEL_NAME = "gemini-2.5-flash-preview-05-20"
